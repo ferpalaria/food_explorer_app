@@ -2,8 +2,16 @@ import { AppTitle } from "../../components/AppTitle";
 import { Button } from "../../components/Button";
 import { InputText } from "../../components/InputText";
 import { Container, Form } from "./styles";
+import { useNavigate } from 'react-router-dom';
 
 export function SignIn() {
+
+  const navigate = useNavigate();
+
+  function handleSignUp(){
+    navigate("/register")
+  }
+
   return (
     <Container>
       <Form>
@@ -18,14 +26,16 @@ export function SignIn() {
         <InputText
           label="Senha"
           placeholder="No mínimo 6 caracteres"
-          minlength="6"
+          minLength="6"
           type="password"
           required
         />
 
         <Button title="Entrar" />
 
-        <a>Criar uma conta</a>
+        <a
+        onClick={handleSignUp}>
+          Criar uma conta</a>
 
       </Form>
     </Container>
