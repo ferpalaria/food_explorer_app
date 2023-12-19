@@ -20,7 +20,7 @@ export default createGlobalStyle`
     }
 
     body {
-        background-color: ${({ theme }) => theme.DARK.DARK_400};
+        background-color: ${({ theme }) => theme.DARK.D_400};
         color: ${({ theme }) => theme.LIGHT.L_100};
         -webkit-font-smoothing: antialised;
     }
