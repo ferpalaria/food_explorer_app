@@ -11,6 +11,7 @@ export const Container = styled.div`
         padding: 12px 14px;
         border-radius: 8px;
         border: 0px;
+        color: ${props => props.theme.LIGHT.L_400};
 
         background-color: ${({ theme }) =>theme.DARK.D_900};
 

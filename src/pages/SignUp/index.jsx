@@ -11,9 +11,17 @@ export function SignUp() {
         <AppTitle/>
 
         <InputText
+          label="Seu nome"
+          placeholder="Exemplo: Maria da Silva"
+          type="text"
+          required
+        />
+
+        <InputText
           label="Email"
           placeholder="Exemplo: exemplo@exemplo.com.br"
           type="text"
+          required
         />
 
         <InputText
@@ -24,9 +32,9 @@ export function SignUp() {
           required
         />
 
-        <Button title="Entrar" />
+        <Button title="Criar conta" />
 
-        <Link to="/register">Criar uma conta</Link>
+        <Link to="/">Já tenho uma conta</Link>
 
       </Form>
     </Container>
