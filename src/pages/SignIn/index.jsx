@@ -12,6 +12,10 @@ export function SignIn() {
     navigate("/register")
   }
 
+  function handleHome(){
+    navigate("/main")
+  }
+
   return (
     <Container>
       <Form>
@@ -31,7 +35,7 @@ export function SignIn() {
           required
         />
 
-        <Button title="Entrar" />
+        <Button title="Entrar" onClick={handleHome}/>
 
         <a
         onClick={handleSignUp}>
