@@ -33,5 +33,12 @@ export default {
         L_300: "#E1E1E6",
         L_200: "#FFFAF1",
         L_100: "#FFFFFF"
+    },
+    FONT_SIZE: {
+        THIN: "100px",
+        MEDIUM: "500px",
+        SEMI_BOLD: "600px", 
+        BOLD: "700px", 
+        EXTRA_BOLD: "800", 
     }
 }

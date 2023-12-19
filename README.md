@@ -9,3 +9,7 @@
 5. Integração com a API do back-end para o consumo de dados.
 6. Documentação detalhada no README, incluindo instruções de execução do projeto e link de deploy.
 
+# Módulos utilizados
+- react-router-dom
+- axios
+- react
