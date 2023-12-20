@@ -4,11 +4,13 @@ import gradient from "../../assets/images/Rectangle.svg";
 export const Container = styled.div`
     display: flex;
     align-items: end;
+    margin: 15px auto 62px;
 
     > img {
         height: 150px;
-    };  
-    `;
+    }; 
+
+`;
 
 export const Gradient = styled.div`
     width: 376px;
