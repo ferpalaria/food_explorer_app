@@ -13,8 +13,13 @@ export function SignIn() {
 
   return (
     <Container>
-      <AppTitle/>
-      
+      <AppTitle />
+
+      <AppTitle
+        fontSize={"5rem"}
+        iconSize={"5.41rem"}
+      />
+
       <Form>
         <InputText
           label="Email"

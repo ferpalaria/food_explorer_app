@@ -1,13 +1,16 @@
 import { Banner } from "../../components/Banner";
 import { Card } from "../../components/Card";
+import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
-import { Container } from "./styles";
+import { Container, Content } from "./styles";
 
 export function Main() {
   return (
     <Container>
-      <Banner />
-
+      
+      <Header/>
+        
+      <Banner/>
       <Section title="Refeições">
         <Card/>
         <Card/>

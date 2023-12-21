@@ -7,7 +7,10 @@ import { Container, Form } from "./styles";
 export function SignUp() {
   return (
     <Container>
-      <AppTitle />
+      <AppTitle
+        fontSize={"5rem"}
+        iconSize={"5.41rem"}
+      />
 
       <Form>
         <InputText
