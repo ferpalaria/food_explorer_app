@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    min-width: 53.5rem;
+    min-width: 100%;
 
     max-height: 18.62rem;
     position: relative;
@@ -10,7 +10,7 @@ export const Container = styled.div`
     > div {
         display: flex;
         
-        > img {
+        img {
             width: 24rem;
             transform: rotateY(180deg);
         }; 
