@@ -5,21 +5,20 @@ export default createGlobalStyle`
         margin: 0;
         padding:0;
         box-sizing: border-box;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
     
     :root {
         font-size: 8px;
         display: grid;
-        place-content: center;
-        
-        --default-width: 53.5rem;
-        
+        place-content: center;        
     }
     
     body {
         background-color: ${({ theme }) => theme.DARK.D_400};
         color: ${({ theme }) => theme.LIGHT.L_100};
-        -webkit-font-smoothing: antialised;
     }
     
     body, input, button, textarea {
@@ -49,4 +48,4 @@ export default createGlobalStyle`
         cursor: pointer;
         transition: filter 0.2s;
     }
-    `;
+`;
