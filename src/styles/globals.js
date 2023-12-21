@@ -6,9 +6,31 @@ export default createGlobalStyle`
         padding:0;
         box-sizing: border-box;
     }
+    
+    :root {
+        font-size: 8px;
+        display: grid;
+        place-content: center;
+        
+        --default-width: 53.5rem;
+        
+    }
+    
+    body {
+        background-color: ${({ theme }) => theme.DARK.D_400};
+        color: ${({ theme }) => theme.LIGHT.L_100};
+        -webkit-font-smoothing: antialised;
+    }
+    
+    body, input, button, textarea {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        outline: none;
+    } 
 
     ::-webkit-scrollbar {
         width: 8px;
+        display:none;
     }
 
     ::-webkit-scrollbar-track {
@@ -18,18 +40,6 @@ export default createGlobalStyle`
     ::-webkit-scrollbar-thumb {
         background-color: #9e9ea0;
     }
-
-    body {
-        background-color: ${({ theme }) => theme.DARK.D_400};
-        color: ${({ theme }) => theme.LIGHT.L_100};
-        -webkit-font-smoothing: antialised;
-    }
-
-    body, input, button, textarea {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        outline: none;
-    } 
 
     a {
         text-decoration: none;

@@ -6,7 +6,6 @@ import theme from './styles/theme';
 
 import GlobalStyles from './styles/globals';
 
-// import { SignIn } from './pages/SignIn';
 import { Routes } from './routes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,7 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
       <GlobalStyles />
         <Routes/>
-        {/* <SignIn /> */}
     </ThemeProvider>
   </React.StrictMode>
 )

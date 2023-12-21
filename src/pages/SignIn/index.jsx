@@ -31,11 +31,9 @@ export function SignIn() {
           required
         />
 
-        <Button title="Entrar" />
+        <Button title="Entrar"/>
 
-        <a
-        onClick={handleSignUp}>
-          Criar uma conta</a>
+        <a onClick={handleSignUp}>Criar uma conta</a>
 
       </Form>
     </Container>
