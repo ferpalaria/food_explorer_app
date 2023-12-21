@@ -6,11 +6,16 @@ export default createGlobalStyle`
         padding:0;
         box-sizing: border-box;
     }
-
+    
     :root {
         font-size: 8px;
+        display: grid;
+        place-content: center;
+        
+        --default-width: 53.5rem;
+        
     }
-
+    
     body {
         background-color: ${({ theme }) => theme.DARK.D_400};
         color: ${({ theme }) => theme.LIGHT.L_100};

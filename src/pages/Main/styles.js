@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    > span {
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        font-weight: medium;
-        color: red;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 33.5rem;
 `;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    width: 404px;
-    margin: 24px;
+    width: 53.5rem;
+    padding-left: 3rem;
 
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ export const Container = styled.section`
         font-weight: 500;
         line-height: 3.15rem;
         color: ${props => props.theme.LIGHT.L_300};
-}
+    }
 `;
 
 export const Carousel_Slider = styled.div`

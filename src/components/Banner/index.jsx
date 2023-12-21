@@ -1,17 +1,19 @@
 import { Container, Gradient, Texto } from "./styles";
-import banner from "../../assets/images/banner2.png";
+import banner from "../../assets/images/banner_full.png";
 
 export function Banner() {
   return (
     <Container>
-      <img src={banner} />
+      <Gradient />
+      <div>
+        <img src={banner} />
 
-      <Gradient>
         <Texto>
           <h1>Sabores inigualáveis</h1>
           <p>Sinta o cuidado do preparo com ingredientes selecionados.</p>
         </Texto>
-      </Gradient>
+      </div>
+
     </Container>
   );
 }

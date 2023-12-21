@@ -7,14 +7,14 @@ export function Main() {
   return (
     <Container>
       <Banner />
-      
+
       <Section title="Refeições">
         <Card/>
         <Card/>
         <Card/>
       </Section>
 
-      <Section title="Pratos principais">
+      <Section title="Sobremesas">
         <Card/>
         <Card/>
         <Card/>
