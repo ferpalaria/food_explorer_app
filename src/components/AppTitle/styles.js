@@ -6,16 +6,12 @@ export const Container = styled.div`
     gap: 10.74px;
     font-size: 20px;
 
-    padding-top: 158px;
-    padding-bottom: 38px;
-
     > h1 {
         font-size: 40px;
         line-height: 32px;
     };
     
     > img {
-        border-image: fill;
         width: 43.31px;
         height: 43.31px;
 
@@ -29,7 +25,5 @@ export const Container = styled.div`
             2.9px 32.49px,
             2.9px 10.83px
         );
-
-        border: 1px solid red;
     }
 `;
