@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 10.74px;
-    font-size: 19px;
+    font-size: 20px;
 
     > h1 {
         font-size: 40px;
