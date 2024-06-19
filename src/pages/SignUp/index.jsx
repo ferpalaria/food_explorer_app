@@ -7,9 +7,9 @@ import { Container, Form } from "./styles";
 export function SignUp() {
   return (
     <Container>
-      <Form>
-        <AppTitle/>
+      <AppTitle />
 
+      <Form>
         <InputText
           label="Seu nome"
           placeholder="Exemplo: Maria da Silva"
@@ -35,7 +35,6 @@ export function SignUp() {
         <Button title="Criar conta" />
 
         <Link to="/">Já tenho uma conta</Link>
-
       </Form>
     </Container>
   );

@@ -4,6 +4,8 @@ export const Container = styled.div`
   height: 100vh;
   width: 100%;
 
+  padding-top: 19.75rem;
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -17,6 +19,8 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: left;
   gap: 32px;
+
+  padding-top: 9.21rem;
 
   & div {
     display: flex;
